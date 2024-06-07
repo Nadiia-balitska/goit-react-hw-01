@@ -1,0 +1,21 @@
+.text__green {
+  color: green;
+  font-size: 12px;
+  font-weight: 500;
+}
+.text__red {
+  color: red;
+  font-size: 12px;
+  font-weight: 500;
+}
+.text {
+  font-size: 17px;
+  font-weight: 600;
+}
+.poster {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  object-fit: cover;
+}
