@@ -25,17 +25,22 @@
   justify-content: center;
   align-items: center;
   display: flex;
+  height: 105px;
   flex-direction: column;
-  border: 1px solid black;
+  &:nth-child(n + 2) {
+    border-left: 1px solid black;
+    min-width: 100px;
+  }
 }
 .card__list {
   background-color: var(--color-gray);
   display: flex;
+  max-height: 105px;
+  border-top: 1px solid black;
   flex-direction: row;
   padding: 16px;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid black; */
 }
 .tag {
   font-weight: 300;

@@ -1,0 +1,17 @@
+.tr {
+  &:nth-child(even) {
+    background-color: gray;
+  }
+}
+
+.td {
+  border: 1px solid black;
+  text-transform: capitalize;
+  &:nth-child(even) {
+    background-color: rgb(from gray 0 100 33);
+  }
+}
+
+.tr:nth-child(even) {
+  background-color: gray;
+}
