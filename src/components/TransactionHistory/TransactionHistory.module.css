@@ -1,8 +1,8 @@
 .table {
-  /* border: 1px solid black; */
   width: 500px;
   margin: 0 auto;
   margin-top: 50px;
+  border: 1px solid black;
 }
 .th {
   background-color: black;
@@ -11,6 +11,15 @@
   font-weight: 400;
 }
 
-.tr {
-  background-color: black;
+.tr:nth-child(even) {
+  color: aliceblue;
+  background-color: grey;
+}
+
+.td {
+  border: 1px solid black;
+  text-transform: capitalize;
+  /* &:nth-child(even) {
+    background-color: rgb(from gray 0 100 33);
+  } */
 }
